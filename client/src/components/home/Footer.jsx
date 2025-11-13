@@ -92,7 +92,8 @@ const Footer = () => {
   </p>
 
   <div className="flex items-center justify-center gap-4 mt-3">
-    <a href="https://www.instagram.com/_om_chotaliya_?igsh=ZGN3aXNibmlqODNi" target="_blank" rel="noreferrer">
+    <a href="https://www.instagram.com/_om_chotaliya_?igsh=ZGN3aXNibmlqODNi" target="_blank" rel="noreferrer" aria-label="Instagram">
+      {/* Simple, accessible Instagram-style camera icon (stroke-based to match other icons) */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -103,13 +104,12 @@ const Footer = () => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className="lucide lucide-dribbble size-5 hover:text-green-500"
+        className="lucide lucide-instagram size-5 hover:text-green-500"
         aria-hidden="true"
       >
-        <circle cx="12" cy="12" r="10"></circle>
-        <path d="M19.13 5.09C15.22 9.14 10 10.44 2.25 10.94"></path>
-        <path d="M21.75 12.84c-6.62-1.41-12.14 1-16.38 6.32"></path>
-        <path d="M8.56 2.75c4.37 6 6 9.42 8 17.72"></path>
+        <rect x="3" y="3" width="18" height="18" rx="5" ry="5"></rect>
+        <circle cx="12" cy="12" r="4"></circle>
+        <circle cx="17.5" cy="6.5" r="0.9" fill="currentColor"></circle>
       </svg>
     </a>
 
