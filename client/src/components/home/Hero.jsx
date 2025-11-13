@@ -203,15 +203,15 @@ const {user} = useSelector((state) => state.auth);
           </div>
 
           <p className="py-6 text-slate-600 mt-14">
-            Welcome to ResumeCraft, your AI-powered resume builder designed to
+            Welcome to AI Resume Builder, your AI-powered resume builder designed to
             help you create professional resumes with ease. Our platform leverages
             advanced AI technology to assist you in crafting resumes that stand
             out to potential employers. Whether you're starting from scratch or
-            looking to enhance an existing resume, ResumeCraft provides
+            looking to enhance an existing resume, AI Resume Builder provides
             user-friendly tools and personalized suggestions to ensure your
             resume highlights your skills and experiences effectively. Join
             thousands of satisfied users who have successfully landed their dream
-            jobs with the help of ResumeCraft.
+            jobs with the help of AI Resume Builder.
           </p>
 
           <div
